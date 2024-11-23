@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>SUCESSO</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+            width: 100%;
+        }
+
+        a{
+            background-color: cornflowerblue;
+            min-width: 150px;
+            padding: 8px;
+            border: 1px solid black;
+            text-align: center;
+            border-radius: 10px;
+            text-decoration: none;
+            color: black;
+
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Cliente cadastrado com sucesso!!</h1>
+        <a th:href="@{/listagem}">Continuar para lista</a>
+    </div>
+</body>
+</html>

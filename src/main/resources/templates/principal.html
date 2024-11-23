@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns="http://www.thymeleaf.org">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Página inicial</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="">CauGás</a>
+            <ul class="nav-list">
+                <li><a th:href="@{/cadastro}">Pedir gás</a></li>
+                <li><a th:href="@{/listagem}">Listar Cliente</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="cgas" >
+                <div class="acab">
+                    <h1>ACABOU O GÁS? </h1>
+                    <h2>Não se preocupe! a CauGás está sempre proxima de você!</h2>
+                    <p>Solicite seu gás agora mesmo!</p>
+                </div>
+                <div class="bot">
+                    <img src="../img/botijao.jfif" alt="">
+                </div>
+            </div>
+
+        <section class="horarios">
+            <div class="container">
+                <h3>Horário de Atendimento</h3>
+                <div class="horario-grid">
+                    <div>
+                        <h4>Segunda a Sexta</h4>
+                        <p>8:00 - 20:00</p>
+                    </div>
+                    <div>
+                        <h4>Sábados</h4>
+                        <p>8:00 - 18:00</p>
+                    </div>
+                    <div>
+                        <h4>Domingos e feriados</h4>
+                        <p>8:00 - 16:00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        </div>
+        </main>
+    </header>
+
+    
+</body>
+</html>
